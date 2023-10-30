@@ -45,11 +45,11 @@ spec:
             path: /ok
             port: 8080
           initialDelaySeconds: 2
-          periodSeconds: 5
+          periodSeconds: 50
         readinessProbe:
           httpGet:
              path: /ok
              port: 8080
           initialDelaySeconds: 5
-          periodSeconds: 5
+          periodSeconds: 50
           successThreshold: 1
