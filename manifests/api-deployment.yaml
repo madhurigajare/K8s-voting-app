@@ -44,7 +44,7 @@ spec:
           httpGet:
             path: /ok
             port: 8080
-          initialDelaySeconds: 5
+          initialDelaySeconds: 2
           periodSeconds: 5
         readinessProbe:
           httpGet:
